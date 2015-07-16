@@ -1,0 +1,30 @@
+{
+  "name": "to-unsigned-int64",
+  "version": "1.0.0",
+  "description": "convert 64 bit integer to buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test/*.js"
+  },
+  "keywords": [
+    "buffer",
+    "usigned",
+    "int64",
+    "integer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chetandhembre/to-unsigned-int64.git"
+  },
+  "author": "ichetandhembre <chetandhembre@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "from-unsigned-int32": "^2.0.1",
+    "standard": "^4.5.4",
+    "tap": "^1.3.1"
+  },
+  "dependencies": {
+    "bn.js": "^3.1.1",
+    "to-unsigned-int32": "^2.0.1"
+  }
+}
